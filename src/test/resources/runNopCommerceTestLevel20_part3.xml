@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="NopCommerce User">
+	
+	<listeners>
+	<listener class-name ="commons.MethodListener" />
+<!-- <listener class-name ="reportConfig.ReportNGListener" /> -->
+<!-- <listener class-name ="reportConfig.ExtentTestListener" /> -->
+<!-- <listener class-name ="reportConfig.AllureTestListener" /> -->
+ <!-- <listener class-name="org.uncommons.reportng.HTMLReporter" /> -->
+<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>  -->
+		
+	</listeners>
+	<!-- Global : Best Practice-->
+	<parameter name ="environment" value ="DEV" />
+	<parameter name ="url" value ="https://..." />
+	<parameter name ="browser" value ="DEV" />
+	
+	
+	
+
+    <test name="Run on CHROME">
+        <parameter name ="browser" value ="chrome" />
+        <classes>
+            <class name="com.nopcommerce.user.Level_20_Manage_Data_Part_3"/>
+            
+        </classes>
+    </test>
+
+  
+
+</suite>

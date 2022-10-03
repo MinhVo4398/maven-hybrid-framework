@@ -1,0 +1,20 @@
+1664347337050	geckodriver	INFO	Listening on 127.0.0.1:19904
+1664347338014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MinhVo\\AppData\\Local\\Temp\\rust_mozprofileMj5hRS"
+1664347338532	Marionette	INFO	Marionette enabled
+1664347338538	Marionette	INFO	Listening on port 52412
+Read port: 52412
+1664347338923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 13520, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:45:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:86:56
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:811:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:740:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:810:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2471:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2450:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2409:11
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\MinhVo\\AppData\\Local\\Temp\\rust_mozprofileMj5hRS\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."

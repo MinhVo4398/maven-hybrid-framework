@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="SauceLab - Sort" parallel="false">
+	
+	<listeners>
+	<listener class-name ="commons.MethodListener" />
+
+		
+	</listeners>
+	
+	 <parameter name ="appUrl" value ="https://www.saucedemo.com/inventory.html" />
+
+    <test name="Run on CHROME">
+        <parameter name ="browser" value ="chrome" />
+        
+        <classes>
+            <class name="com.saurcelab.sort.Level_19_Asc_Desc"/>
+            <method name=""></method>
+        </classes>
+    </test>
+
+  
+
+</suite>
