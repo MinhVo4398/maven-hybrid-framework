@@ -755,7 +755,7 @@ public class BasePage extends BasePageNopCommerceUI {
 	
 	/** Click to dynamic radio button by label name
 	 * @param driver
-	 * @param labelName
+	 * @param radioButtonLabelName
 	 */
 	public void clickToRadioButtonByLabel(WebDriver driver, String radioButtonLabelName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
