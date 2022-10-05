@@ -17,7 +17,7 @@
         <parameter name ="browser" value ="chrome" />
         <classes>
             <class name="com.nopcommerce.user.Level_20_Manage_Data_Part_4"/>
-            <method name=""></method>
+
         </classes>
     </test>
 

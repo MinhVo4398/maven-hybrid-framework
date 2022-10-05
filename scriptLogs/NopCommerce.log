@@ -232,3 +232,25 @@
 [2022-10-03 20:45:09,388] Driver instance name = chromedriver: chrome on windows (bdf15bdbe6d09a951099905e67044845)
 [2022-10-03 21:31:37,701] OS name = windows 10
 [2022-10-03 21:31:37,725] Driver instance name = chromedriver: chrome on windows (798ea8785fd8928b1bb7048dd2fa763c)
+[2022-10-04 12:19:47,590] OS name = windows 10
+[2022-10-04 12:19:47,677] Driver instance name = chromedriver: chrome on windows (32fb4a414c860ec02873beef4638854e)
+[2022-10-05 19:13:10,638] Register - Step 01: Navigate to 'Register' page
+[2022-10-05 19:13:12,331] Register - Step 02: Enter to Firstname textbox with value is 'Automation'
+[2022-10-05 19:13:12,497] Register - Step 03: Enter to Lastname textbox with value is 'FC'
+[2022-10-05 19:13:12,677] Register - Step 04: Enter date, month , year
+[2022-10-05 19:13:13,250] Register - Step 05: Enter to Email textbox with value is 'automationfc60788@fakemail.com'
+[2022-10-05 19:13:13,463] Register - Step 06: Tick to checkbox Newsletter
+[2022-10-05 19:13:13,559] Register - Step 07: Enter to Password textbox with value is '123456'
+[2022-10-05 19:13:13,801] Register - Step 08: Enter to Confirmpassword textbox with value is '123456'
+[2022-10-05 19:13:19,031] Register - Step 09: Click to 'Register' button 
+[2022-10-05 19:13:19,931] Register - Step 10:  Verify Register success message is displayed
+[2022-10-05 19:13:20,275] Login - Step 01: Navigate to Login Page 
+[2022-10-05 19:13:21,615] Login - Step 02: Enter to Email textbox with value is 'automationfc60788@fakemail.com' 
+[2022-10-05 19:13:21,752] Login - Step 03: Enter to Password textbox 
+[2022-10-05 19:13:21,920] Login - Step 04: Click to Login button 
+[2022-10-05 19:13:22,718] Login - Step 05: Verify 'My Account' link is displayed 
+[2022-10-05 19:13:22,805] My Account - Step 01: Navigate to 'My Account' page 
+[2022-10-05 19:13:23,334] My Account - Step 02: Verify 'Customer Infor' page is displayed 
+[2022-10-05 19:13:23,413] My Account - Step 03: Verify 'First Name ' value is displayed 
+[2022-10-05 19:13:23,475] My Account - Step 04: Verify 'Last Name ' value is displayed 
+[2022-10-05 19:13:23,538] My Account - Step 05: Verify 'Email ' value is displayed 
